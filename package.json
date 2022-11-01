@@ -9,7 +9,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "browser": {
-    "./lib/performance-now.js": "./lib/utils/performance-now.browser.js"
+    "./lib/performance-now.js": "./lib/performance-now.browser.js"
   },
   "sideEffects": false,
   "repository": "git@github.com:BlackGlory/extra-compatible.git",
