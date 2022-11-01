@@ -9,7 +9,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "browser": {
-    "./lib/performance-now.js": "./lib/performance-now.browser.js"
+    "./lib/performance-now.js": "./lib/performance-now.browser.js",
+    "./lib/hmac-sha256.js": "./lib/hmac-sha256.browser.js"
   },
   "sideEffects": false,
   "repository": "git@github.com:BlackGlory/extra-compatible.git",
@@ -36,6 +37,7 @@
     "@blackglory/prelude": "^0.1.7",
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
+    "@peculiar/webcrypto": "^1.4.0",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",

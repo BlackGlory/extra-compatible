@@ -11,3 +11,8 @@ yarn add extra-compatible
 ```ts
 function performanceNow(): number
 ```
+
+### hmacSHA256
+```ts
+function hmacSHA256(secret: string, text: string): Promise<string>
+```
