@@ -19,5 +19,5 @@ function hmacSHA256(secret: string, text: string): Promise<string>
 
 ### sha256
 ```ts
-function sha256(text: string): Promise<string>
+function sha256(input: string | DataView | TypedArray): Promise<string>
 ```
