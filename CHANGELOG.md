@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/BlackGlory/extra-compatible/compare/v0.1.2...v0.1.3) (2022-11-02)
+
+
+### Features
+
+* add `sha256` ([b656d4a](https://github.com/BlackGlory/extra-compatible/commit/b656d4a790ac3d89623691d943cf96381f19b9a8))
+
 ### [0.1.2](https://github.com/BlackGlory/extra-compatible/compare/v0.1.1...v0.1.2) (2022-11-01)
 
 
