@@ -39,6 +39,7 @@
     "@commitlint/config-conventional": "^17.2.0",
     "@peculiar/webcrypto": "^1.4.0",
     "@types/jest": "^27.4.1",
+    "@types/node": "16",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "eslint": "^8.26.0",
