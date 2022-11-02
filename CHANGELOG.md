@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/BlackGlory/extra-compatible/compare/v0.1.3...v0.1.4) (2022-11-02)
+
+
+### Features
+
+* accept more types of input ([a8c0ee3](https://github.com/BlackGlory/extra-compatible/commit/a8c0ee38a1756f6691545d819b8b8ac5e8878a51))
+
+
+### Bug Fixes
+
+* dependencies ([1ad3c90](https://github.com/BlackGlory/extra-compatible/commit/1ad3c9077c56343b1f0f23f1c0db5c7ff27ccc93))
+
 ### [0.1.3](https://github.com/BlackGlory/extra-compatible/compare/v0.1.2...v0.1.3) (2022-11-02)
 
 
