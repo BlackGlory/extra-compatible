@@ -1,4 +1,4 @@
-import { hmacSHA256 } from '@src/hmac-sha256'
+import { hmacSHA256 } from '@src/hmac-sha256.js'
 
 test('hmacSHA256', async () => {
   const secret = 'secret'

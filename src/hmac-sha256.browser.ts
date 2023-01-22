@@ -1,4 +1,4 @@
-import { bufferToHex } from '@utils/buffer-to-hex'
+import { bufferToHex } from '@utils/buffer-to-hex.js'
 
 export async function hmacSHA256(secret: string, text: string): Promise<string> {
   const encoder = new TextEncoder()

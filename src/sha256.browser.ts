@@ -1,4 +1,4 @@
-import { bufferToHex } from '@utils/buffer-to-hex'
+import { bufferToHex } from '@utils/buffer-to-hex.js'
 import { TypedArray, isString } from '@blackglory/prelude'
 
 export async function sha256(input: string | DataView | TypedArray): Promise<string> {

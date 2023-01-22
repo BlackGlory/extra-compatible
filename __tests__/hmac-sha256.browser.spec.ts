@@ -1,5 +1,5 @@
-import { hmacSHA256 } from '@src/hmac-sha256.browser'
-import './polyfill'
+import { hmacSHA256 } from '@src/hmac-sha256.browser.js'
+import './polyfill.js'
 
 test('hmacSHA256', async () => {
   const secret = 'secret'

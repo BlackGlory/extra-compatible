@@ -1,4 +1,4 @@
-import { sha256 } from '@src/sha256'
+import { sha256 } from '@src/sha256.js'
 
 test('sha256', async () => {
   const text = 'text'

@@ -1,4 +1,4 @@
-import { performanceNow } from '@src/performance-now'
+import { performanceNow } from '@src/performance-now.js'
 import { isNumber } from '@blackglory/prelude'
 
 test('performanceNow', () => {
