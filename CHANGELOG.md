@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/BlackGlory/extra-compatible/compare/v0.1.6...v0.1.7) (2023-01-28)
+
+
+### Bug Fixes
+
+* dependencies ([5d43785](https://github.com/BlackGlory/extra-compatible/commit/5d43785387dfb585e7ae1e003c3a42d24543ec0d))
+* dependencies ([e7c3174](https://github.com/BlackGlory/extra-compatible/commit/e7c3174aa6e1daa896ebd4b6a1b9f480b7e9d57d))
+
 ### [0.1.6](https://github.com/BlackGlory/extra-compatible/compare/v0.1.5...v0.1.6) (2023-01-21)
 
 ### [0.1.5](https://github.com/BlackGlory/extra-compatible/compare/v0.1.4...v0.1.5) (2023-01-21)
