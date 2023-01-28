@@ -54,7 +54,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@blackglory/prelude": "^0.2.3",
-    "iterable-operator": "^2.1.0 || ^3.0.0"
+    "@blackglory/prelude": "^0.2.4",
+    "iterable-operator": "^2.1.0"
   }
 }
