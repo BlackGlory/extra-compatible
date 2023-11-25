@@ -1,8 +1,6 @@
-import * as crypto from 'crypto'
 import { TypedArray } from '@blackglory/prelude'
+import { digest } from '@utils/digest.js'
 
-export async function sha256(input: string | DataView | TypedArray): Promise<string> {
-  return crypto.createHash('SHA256')
-    .update(input)
-    .digest('hex')
+export function sha256(input: string | DataView | TypedArray): Promise<string> {
+  return digest('SHA256', input)
 }

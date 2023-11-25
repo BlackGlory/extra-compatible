@@ -1,18 +1,6 @@
-import { bufferToHex } from '@utils/buffer-to-hex.js'
-import { TypedArray, isString } from '@blackglory/prelude'
+import { TypedArray } from '@blackglory/prelude'
+import { digest } from '@utils/digest.browser.js'
 
-export async function sha256(input: string | DataView | TypedArray): Promise<string> {
-  const hashBuffer = await crypto.subtle.digest('SHA-256', toArrayBufferView(input))
-  return bufferToHex(hashBuffer)
-}
-
-function toArrayBufferView(input: string | DataView | TypedArray): ArrayBufferView {
-  if (isString(input)) {
-    const encoder = new TextEncoder()
-    return encoder.encode(input)
-  } else if (input instanceof DataView) {
-    return input
-  } else {
-    return new DataView(input)
-  }
+export function sha256(input: string | DataView | TypedArray): Promise<string> {
+  return digest('SHA-256', input)
 }
