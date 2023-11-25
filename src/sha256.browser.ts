@@ -1,6 +1,6 @@
 import { TypedArray } from '@blackglory/prelude'
-import { digest } from '@utils/digest.browser.js'
+import { hash } from '@utils/hash.browser.js'
 
 export function sha256(input: string | DataView | TypedArray): Promise<string> {
-  return digest('SHA-256', input)
+  return hash('SHA-256', input)
 }

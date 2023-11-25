@@ -1,7 +1,7 @@
 import * as crypto from 'crypto'
 import { TypedArray } from '@blackglory/prelude'
 
-export async function digest(
+export async function hash(
   algorithm: string
 , input: string | DataView | TypedArray
 ): Promise<string> {
