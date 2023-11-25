@@ -13,7 +13,8 @@
   "browser": {
     "./lib/performance-now.js": "./lib/performance-now.browser.js",
     "./lib/hmac-sha256.js": "./lib/hmac-sha256.browser.js",
-    "./lib/sha256.js": "./lib/sha256.browser.js"
+    "./lib/sha256.js": "./lib/sha256.browser.js",
+    "./lib/sha1.js": "./lib/sha1.browser.js"
   },
   "sideEffects": false,
   "engines": {
