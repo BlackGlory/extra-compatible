@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/BlackGlory/extra-compatible/compare/v0.2.2...v0.2.3) (2026-02-15)
+
+
+### Bug Fixes
+
+* **hash:** respect `byteOffset` and `byteLength` ([453592d](https://github.com/BlackGlory/extra-compatible/commit/453592df32a0a315579fdca6a100130aa4e6680b))
+
 ### [0.2.2](https://github.com/BlackGlory/extra-compatible/compare/v0.2.1...v0.2.2) (2023-11-25)
 
 
