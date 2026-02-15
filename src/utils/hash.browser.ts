@@ -16,6 +16,6 @@ function toArrayBufferView(input: string | DataView | TypedArray): ArrayBufferVi
   } else if (input instanceof DataView) {
     return input
   } else {
-    return new DataView(input.buffer)
+    return new DataView(input.buffer, input.byteOffset, input.byteLength)
   }
 }
