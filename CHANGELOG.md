@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/BlackGlory/extra-compatible/compare/v0.2.3...v0.2.4) (2026-02-15)
+
+
+### Bug Fixes
+
+* typescript types ([4e6fced](https://github.com/BlackGlory/extra-compatible/commit/4e6fced08419c9628019b518b6913cac6746d5ca))
+
 ### [0.2.3](https://github.com/BlackGlory/extra-compatible/compare/v0.2.2...v0.2.3) (2026-02-15)
 
 
