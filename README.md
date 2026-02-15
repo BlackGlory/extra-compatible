@@ -19,10 +19,10 @@ function hmacSHA256(secret: string, text: string): Promise<string>
 
 ### sha256
 ```ts
-function sha256(input: string | DataView | TypedArray): Promise<string>
+function sha256(input: string | DataView<ArrayBuffer> | TypedArray<ArrayBuffer>): Promise<string>
 ```
 
 ### sha1
 ```ts
-function sha1(input: string | DataView | TypedArray): Promise<string>
+function sha1(input: string | DataView<ArrayBuffer> | TypedArray<ArrayBuffer>): Promise<string>
 ```

@@ -1,9 +1,9 @@
 import * as crypto from 'crypto'
-import { TypedArray } from '@blackglory/prelude'
+import { TypedArray } from 'justypes'
 
 export async function hash(
   algorithm: string
-, input: string | DataView | TypedArray
+, input: string | DataView<ArrayBuffer> | TypedArray
 ): Promise<string> {
   return crypto.createHash(algorithm)
     .update(input)
