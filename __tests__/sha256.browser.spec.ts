@@ -1,5 +1,5 @@
+import { test, expect } from 'vitest'
 import { sha256 } from '@src/sha256.browser.js'
-import './polyfill.js'
 
 test('sha256', async () => {
   const text = 'text'

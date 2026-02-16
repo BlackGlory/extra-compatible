@@ -1,3 +1,4 @@
+import { test, expect } from 'vitest'
 import { sha256 } from '@src/sha256.js'
 
 test('sha256', async () => {

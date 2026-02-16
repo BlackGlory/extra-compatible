@@ -1,3 +1,4 @@
+import { test, expect } from 'vitest'
 import { hmacSHA256 } from '@src/hmac-sha256.js'
 
 test('hmacSHA256', async () => {
