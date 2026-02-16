@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/BlackGlory/extra-compatible/compare/v0.2.5...v0.3.0) (2026-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v16 => Node.js v22
+
+* upgrade dependencies ([22fd5d2](https://github.com/BlackGlory/extra-compatible/commit/22fd5d21cc36c320b94f36c7ee2fcf361a768504))
+
 ### [0.2.5](https://github.com/BlackGlory/extra-compatible/compare/v0.2.4...v0.2.5) (2026-02-16)
 
 
